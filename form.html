@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Documento voltado ao desenvolvimento de formulários -->
+<!-- Formulários servem para que respostas dentro do site sejam armazenados em um banco de dados -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulários</title>
+</head>
+
+<body>
+  <!-- Parte Explicativa -->
+  <p>
+    <a href="index.html">Voltar</a>
+  <h1>INTRODUÇÃO</h1>
+  <h3>Diferenças entre Método Post e Método Get</h3>
+  <b>Método Post</b> - A mensagem será encriptada e enviada de forma oculta
+  <br>
+  <b>Método Get</b> - A informação será exibida pela URL
+  <br>
+
+  </p>
+
+  <!-- Parte Prática -->
+  <form action="dados.php" method="POST">
+    <!-- action = para onde os dados serão levados -->
+    <label>Texto</label>
+    <input type="text" name="texto1" placeholder="Exemplo Nome">
+    <!-- name pode colocar o nome que quiser, como uma variável
+    placeholder não é obrigatório mas se pode colocar para ter o texto de fundo -->
+
+    <br>
+
+    <label>Senha</label>
+    <input type="password" name="senha" placeholder="Exemplo Senha">
+    <!-- O tipo password oculta os caracteres -->
+
+    <br><br>
+
+    <label>Oculto</label>
+    <input type="hidden" name="oculto">
+    <!-- Esse tipo de seleção não aparecerá na tela-->
+
+    <br><br>
+
+    <label>Selecao</label>
+    <!-- Listas de seleção com multipla escolha -->
+    <select name="seleção">
+      <option value="1">Opção 1</option>
+      <option value="2">Opção 2</option>
+      <option value="3">Opção 3</option><br>
+    </select>
+
+    <br>
+
+    <label>Radio</label>
+    <!-- Multiplas escolhas - Nesse caso, só se pode escolher um dos input field que seja  -->
+    <input type="radio" name="radio1" value="1">Marca 1
+    <input type="radio" name="radio1" value="1">Marca 2
+    <input type="radio" name="radio1" value="1">Marca 3
+    <input type="radio" name="radio1" value="1">Marca 4
+    <input type="radio" name="radio1" value="1">Marca 5<br>
+
+    <br>
+
+    <label>Checkbox</label>
+    <!-- Nesse caso, podem ser marcadas vários input fields -->
+    <input type="checkbox" name="caixaselecao" value="1">Valor 1
+    <input type="checkbox" name="caixaselecao" value="2">Valor 2
+    <input type="checkbox" name="caixaselecao" value="3" checked>Valor 3<br>
+    <!-- Caso eu queira que um item já esteja automaticamente selecionado, adiciona-se Checked -->
+
+    <br>
+
+    <label>Submit</label>
+    <input type="submit" value="Enviar" name="submit">
+    <!-- Botão que irá enviar todas as informações para o servidor -->
+</body>
+
+</html>
