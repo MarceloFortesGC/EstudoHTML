@@ -1,0 +1,58 @@
+/* Comentários em CSS
+seletor{
+  propriedade: valor
+  propriedade2: valor2
+}
+ */
+
+/* TAGS */
+p {
+  color: yellow;
+  background-color: purple;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: brown;
+  height: 110px;
+  padding: 10px; /* Borda interna */
+}
+
+footer {
+  clear: both;
+  background-color: brown;
+  height: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* IDs */
+#div_e {
+  background-color: chocolate;
+  min-height: 500px;
+  width: 60%;
+  float: left;
+}
+
+#div_d {
+  background-color: wheat;
+  min-height: 500px;
+  width: 40%;
+  float: right;
+}
+
+/* CLASS */
+.container {
+  width: 1080px;
+  margin: auto;
+}
