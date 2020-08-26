@@ -12,16 +12,16 @@ seletor{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-  color: yellow;
-  background-color: purple;
-  font-size: 14px;
-  font-family: Arial;
-}
-
 h1 {
   color: aliceblue;
   text-align: center;
+}
+
+p{
+  text-align: justify;
+  color: white;
+  font-size: 15px;
+  padding: 0 200px 0 200px;
 }
 
 body {
@@ -47,6 +47,7 @@ footer {
   background-image: url(/imagens/cidade.jpg);
   min-height: 500px;
   background-size: 100%;
+  padding: 30px;
 }
 
 /* #div_e {
@@ -66,5 +67,29 @@ footer {
 /* CLASS */
 .container {
   width: 100%;
+  justify-content: center;
   /* margin: auto; */
+}
+
+.container h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.button_back{
+  background-color: #ffff66;
+  transition-duration: 0.4s;
+  font-size:12px;
+  padding: 16px;
+  border-radius: 8px;
+  float: left; 
+  margin-left: 120px;
+  margin-top: 10px;
+  z-index: 9;
+}
+
+.button_back:hover{
+  background-color: #cccc00;
 }
