@@ -1,3 +1,62 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 50px 60px 0 0;
+  display: flex;
+  text-align: justify;
+}
+
+body{
+  background-color: black;
+}
+
+p{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+#img{
+  min-height: 100px;
+  width: 25%;
+  float: left;
+  padding: 0 0 0 100px;
+}
+
+#txt_header{
+  min-height: 100px;
+  width: 75%;
+  float: right;
+}
+
+#cursos{
+  padding: 0 0 0 100px;
+}
+
+#cursohtml{
+  min-height: 100px;
+  width: 50%;
+  float: left;
+}
+
+#cursocss{
+  min-height: 100px;
+  width: 50%;
+  float: right;
+}
+
+
+
 .button{
     background-color: rgb(255, 43, 24);
     transition-duration: 0.4s;
@@ -17,8 +76,4 @@
   
   .button:hover{
     background-color: #c61aff;
-  }
-  
-  .container{
-      display: flex;
   }
