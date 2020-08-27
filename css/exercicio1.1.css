@@ -90,6 +90,10 @@ footer {
   z-index: 9;
 }
 
+.button_back a{
+  text-decoration: none;
+}
+
 .button_back:hover{
   background-color: #cccc00;
 }
