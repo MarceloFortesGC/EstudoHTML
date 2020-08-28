@@ -26,6 +26,10 @@ h2{
   color: white;
 }
 
+a{
+  color: white;
+}
+
 #img{
   min-height: 100px;
   width: 25%;
@@ -40,7 +44,7 @@ h2{
 }
 
 #cursos{
-  padding: 0 0 0 100px;
+  padding: 80px 0 70px 100px;
 }
 
 #cursohtml{
@@ -55,13 +59,53 @@ h2{
   float: right;
 }
 
+#socialmedia{
+  min-height: 200px;
+  padding: 100px;
+}
 
+.container{
+  width: 100%;
+  min-height: 200px;
+  left: 30px;
+  padding: 100px;
+}
+
+.coluna_e{
+  min-height: 200px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+.coluna_d{
+  min-height: 200px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+
+.icon_contato{
+  width: 30px;
+  height: 30px;
+}
+
+.info_contato{
+  width: 300px;
+  height: 30px;
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+  text-align: left;
+  line-height: 30px;
+}
 
 .button{
     background-color: rgb(255, 43, 24);
     transition-duration: 0.4s;
     font-size:12px;
-    padding: 16px;
+    padding: 15px 10px;
     border-radius: 8px;
     float: left;
     margin-top: 10px;
