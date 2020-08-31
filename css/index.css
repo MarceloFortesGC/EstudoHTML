@@ -24,81 +24,17 @@ a{
   color: white;
 }
 
-#logo{
-  padding: 10px 10px 10px 150px;
-  
-}
-
-#menu{
-  min-height: 50px;
-  background-color: gray;
-}
-
-#info {
-  padding: 50px 60px 0 0;
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
   display: flex;
-  text-align: justify;
+  max-width: 1200px;
 }
 
-#img{
-  min-height: 100px;
-  width: 25%;
-  float: left;
-  padding: 0 0 0 100px;
-}
-
-#img img{
+.container img{
   border-radius: 20px;
 }
-
-
-#txt_header{
-  min-height: 100px;
-  width: 75%;
-  float: right;
-}
-
-#cursos{
-  padding: 80px 0 70px 100px;
-}
-
-#cursohtml{
-  min-height: 100px;
-  width: 50%;
-  float: left;
-}
-
-#cursocss{
-  min-height: 100px;
-  width: 50%;
-  float: right;
-}
-
-#socialmedia{
-  min-height: 200px;
-  padding: 100px;
-}
-
-.container{
-  min-height: 200px;
-  left: 30px;
-  padding: 100px;
-}
-
-.coluna_e{
-  min-height: 200px;
-  width: 20%;
-  float: left;
-  position: relative;
-}
-
-.coluna_d{
-  min-height: 200px;
-  width: 20%;
-  float: left;
-  position: relative;
-}
-
 
 .icon_contato{
   width: 30px;
@@ -106,13 +42,7 @@ a{
 }
 
 .info_contato{
-  width: 300px;
-  height: 30px;
-  position: relative;
-  left: 50px;
-  bottom: 30px;
-  text-align: left;
-  line-height: 30px;
+
 }
 
 .button{
