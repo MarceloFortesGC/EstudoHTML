@@ -8,32 +8,31 @@ body{
   background-color: black;
 }
 
-p{
+p, h3, h2, a, i{
   color: white;
 }
 
-h3{
-  color: white;
-}
-
-h2{
-  color: white;
-}
-
-a{
-  color: white;
+.logo{
+  padding: 45px 0 0 0;
 }
 
 .container{
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 45px;
+  margin-bottom: 60px;
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
-.container img{
+.foto img{
   border-radius: 20px;
+}
+
+.txt_header, .objetivos{
+  text-align: justify;
+  width: 300px;
+  padding: 0 0 0 45px;
 }
 
 .icon_contato{
@@ -41,8 +40,16 @@ a{
   height: 30px;
 }
 
-.info_contato{
+.coluna{
+  min-width: 30%;
+}
 
+.coluna p{
+  padding: 0 0 20px 45px;
+}
+
+.material-icons {
+  vertical-align:-14%
 }
 
 .button{
@@ -54,8 +61,7 @@ a{
     float: left;
     margin-top: 10px;
     margin-right: 10px;
-    z-index: 9;
-  }
+    }
   
   .button a{
     text-decoration: none;
