@@ -18,11 +18,15 @@ p, h3, h2, a, i{
 
 .container{
   justify-content: center;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
   display: flex;
   max-width: 1100px;
+}
+
+.coluna{
+  padding: 0 0 0 50px;
 }
 
 .foto img{
@@ -40,13 +44,6 @@ p, h3, h2, a, i{
   height: 30px;
 }
 
-.coluna{
-  min-width: 30%;
-}
-
-.coluna p{
-  padding: 0 0 20px 45px;
-}
 
 .material-icons {
   vertical-align:-14%
@@ -56,7 +53,7 @@ p, h3, h2, a, i{
     background-color: rgb(255, 43, 24);
     transition-duration: 0.4s;
     font-size:12px;
-    padding: 15px 10px;
+    padding: 15px 15px;
     border-radius: 8px;
     float: left;
     margin-top: 10px;
