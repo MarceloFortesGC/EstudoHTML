@@ -3,34 +3,41 @@
     font-family: sans-serif;
 }
 
+
+section{
+    width: 50%;
+    padding: 0 50px;
+}
+
 .container{
-    padding: 5vw 10vw;
+    padding: 1vw 10vw;
     display: flex;
 }
 
-.section-menu{
-    padding: 1vw 1vw 1vw 5vw;
-    background-color: lightgray;
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-
-.section-menu li{
-    list-style: none;
-    display: inline;
-    padding: 1vw;
-}
-
-.section-menu a{
-    color: black;
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 1vw;
-    transition: 100ms;
+    font-size: 17px;
 }
-
-.section-menu a:hover{
-    border-bottom: 0.5vw solid lightskyblue;
+  
+.navbar a:hover {
+background: #ddd;
+color: black;
 }
-
-.section-menu i{
+  
+.navbar i{
     padding-right: 1vw;
 }
 
@@ -45,8 +52,23 @@
 
 .about{
     padding: 5vw 0;
+    text-align: center;
 }
 
-.about p{
-    padding-top: 2vw;
+.descricao{
+    padding: 1vw 0;
+    text-align: justify;
+}
+
+.habilidades_container{
+    text-align: center;
+    padding: 1vw;
+}
+
+.habilidades{
+    min-width: 50%;
+}
+
+.habilidades_container h1{
+    padding: 1vw;
 }
