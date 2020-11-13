@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    padding: 5vw 10vw;
+    display: flex;
+}
+
+.perfil img{
+    height: 250px;
+}
+
+.section-menu li{
+    list-style: none;
+    display: inline;
+    padding: 0.5vw;
+}
+
+.section-menu a{
+    color: gray;
+    text-decoration: none;
+    font-size: 1vw;
+    transition: 100ms;
+}
+
+.section-menu a:hover{
+    color: black;
+    border-bottom: 0.25vw solid lightskyblue;
+}
+
+.section-menu i{
+    padding-right: 1vw;
+}
+
+.img_perfil{
+    padding: 2vw 2vw 2vw 0;
+}
+
+.img_perfil img{
+    height: 500px;
+    border-radius: 50%;
+}
