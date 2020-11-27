@@ -10,11 +10,11 @@ section{
 }
 
 .container{
-    padding: 1vw 10vw;
+    padding: 2vw 10vw;
     display: flex;
 }
 
-.navbar {
+.navbar_site {
     overflow: hidden;
     background-color: #333;
     position: fixed;
@@ -22,7 +22,7 @@ section{
     width: 100%;
 }
   
-.navbar a {
+.navbar_site a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -32,12 +32,12 @@ section{
     font-size: 17px;
 }
   
-.navbar a:hover {
+.navbar_site a:hover {
 background: #ddd;
 color: black;
 }
   
-.navbar i{
+.navbar_site i{
     padding-right: 1vw;
 }
 
@@ -71,4 +71,27 @@ color: black;
 
 .habilidades_container h1{
     padding: 1vw;
+}
+
+.progress_bar{
+    display: flex;
+}
+
+.bar{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border: 3px solid#99CCFF;
+    width: 25vw;
+    height: 2vw;
+}
+
+.bar_progress{
+    position: absolute;
+    background-color: #99CCFF;
+    left: 0;
+    height: 100%;
+    width: 70%;
 }
