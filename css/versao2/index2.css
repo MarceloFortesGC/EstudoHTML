@@ -1,97 +1,104 @@
-*{
+* {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --gray: #adadad;
+}
+/*WEB*/
+@media screen and (min-width: 601px){
+    .navbar {
+        overflow: hidden;
+        background-color: var(--gray);
+        display: flex;
+        padding: 20px 50px;
+    }
+    .navbar a {
+        float: right;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar a.active {
+        color: white;
+    }
+    .navbar .icon {
+        display: none;
+    }
 
-section{
-    width: 50%;
-    padding: 0 50px;
-}
+    .name-description{
+        padding-right: 100px;
+    }
 
-.container{
-    padding: 2vw 10vw;
-    display: flex;
-}
+    .container{
+        padding: 20px 50px;
+    }
 
-.navbar_site {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-  
-.navbar_site a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-.navbar_site a:hover {
-background: #ddd;
-color: black;
-}
-  
-.navbar_site i{
-    padding-right: 1vw;
-}
+    .container img{
+        height: 500px;
+    }
 
-.img_perfil{
-    padding: 2vw 2vw 2vw 0;
-}
+    .profile{
+        display: flex;
+    }
 
-.img_perfil img{
-    height: 500px;
-    border-radius: 50%;
-}
+    .description h2{
+        padding-bottom: 20px;
+    }
 
-.about{
-    padding: 5vw 0;
-    text-align: center;
-}
+    .description{
+        padding: 0 100px;
+    }
 
-.descricao{
-    padding: 1vw 0;
-    text-align: justify;
 }
 
-.habilidades_container{
-    text-align: center;
-    padding: 1vw;
-}
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+    .navbar {
+        overflow: hidden;
+        background-color: var(--gray);
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar a.active {
+        color: white;
+    }
+    .navbar .icon {
+        display: none;
+    }
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
-.habilidades{
-    min-width: 50%;
-}
-
-.habilidades_container h1{
-    padding: 1vw;
-}
-
-.progress_bar{
-    display: flex;
-}
-
-.bar{
-    position: relative;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    border: 3px solid#99CCFF;
-    width: 25vw;
-    height: 2vw;
-}
-
-.bar_progress{
-    position: absolute;
-    background-color: #99CCFF;
-    left: 0;
-    height: 100%;
-    width: 70%;
+    .container{
+        padding: 20px 50px;
+    }
 }
