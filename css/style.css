@@ -1,55 +1,29 @@
-/* Comentários em CSS
-seletor{
-  propriedade: valor
-  propriedade2: valor2
-}
- */
-
-/* TAGS */
-p {
-  color: yellow;
-  background-color: purple;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+*{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
-  background-color: rgb(141, 202, 255);
+.container{
+  display: flex ;
+  padding: 5vw;
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-header {
-  background-color: brown;
-  height: 50px;
-}
-
-footer {
-  clear: both;
-  background-color: whitesmoke;
-  height: 30px;
-}
-
-/* IDs */
-#div_e {
-  background-color: chocolate;
-  min-height: 500px;
-  width: 60%;
+button{
+  background-color: rgb(255, 43, 24);
+  transition-duration: 400ms;
+  font-size:12px;
+  padding: 15px 15px;
+  border-radius: 8px;
   float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  }
+
+  button a{
+  text-decoration: none;
+  color: white;
 }
 
-#div_d {
-  background-color: wheat;
-  min-height: 500px;
-  width: 40%;
-  float: right;
-}
-
-/* CLASS */
-.container {
-  width: 960px;
-  margin: auto;
+button:hover{
+  background-color: #c61aff;
 }
